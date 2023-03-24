@@ -7,7 +7,11 @@ namespace CatalogAPI.Repositories
     public class CatalogRepository : ICatalogRepository
     {
         private readonly CatalogContext _dbContext;
+<<<<<<< HEAD
 	//user2updated
+=======
+	//modified by user3
+>>>>>>> c7b86424baecf7636341ba6af735c737ab31d6a2
         public CatalogRepository(CatalogContext dbContext)
         {
             _dbContext = dbContext;
